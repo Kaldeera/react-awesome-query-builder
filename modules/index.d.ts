@@ -330,6 +330,7 @@ interface BaseOperator {
   jsonLogic?: string | JsonLogicFormatOperator,
   _jsonLogicIsRevArgs?: boolean,
   valueSources?: Array<ValueSource>,
+  customOptions?: AnyObject,
 }
 interface UnaryOperator extends BaseOperator {
   //cardinality: 0,
